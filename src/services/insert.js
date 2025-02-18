@@ -97,7 +97,7 @@ export const insertService = () => new Promise( async (resolve,reject) => {
                     id: overviewId,
                     code: item?.overview?.content[0].title,
                     created: item?.overview?.content[2].title,
-                    expire: item?.overview?.content[3].title,
+                    expired: item?.overview?.content[3].title,
                     type: item?.overview?.header,
                     area: item?.header?.address,
                     target: item?.overview?.content[1].title,

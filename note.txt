@@ -8,3 +8,5 @@ npx sequelize-cli model:generate --name User --attributes firstName:string,lastN
 npx sequelize-cli db:migrate (cd vào src tạo bảng cho db)
 npm i bcryptjs jsonwebtoken
 npm i uuid
+----------------------------
+Đầu tiên sửa .env sau đó sửa config.json
