@@ -1,0 +1,10 @@
+npm i express dotenv cors nodemon
+npm i -D @babel/core @babel/node @babel/preset-env
+npm i --save sequelize mysql2
+npm install --save-dev sequelize-cli
+npx sequelize-cli init
+
+npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+npx sequelize-cli db:migrate (cd vào src tạo bảng cho db)
+npm i bcryptjs jsonwebtoken
+npm i uuid
